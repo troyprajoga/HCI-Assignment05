@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient( black,gray);
+    background-size:cover;
+    background-position:center;
+}
+.navbar{
+    width: 85%;
+    margin:auto;
+    padding:35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 5px solid white;
+    padding: 10px;
+}
+.logo{
+    width:120px;
+    cursor:pointer;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: white;
+}
+.navbar ul li{
+    list-style: none;
+    display:inline-block;
+    margin:0 20px;
+    position:relative;
+}
+.navbar ul li a{
+    text-decoration:none;
+    color:white;
+    text-transform: uppercase;
+    font-size:25px;
+}
+.navbar ul li::after{
+    content:'';
+    height:3px;
+    width:0;
+    background:#009688;
+    position: absolute;
+    left:0;
+    bottom:-5px;
+    transition:0.5s;
+}
+.navbar ul li:hover::after{
+    width:100%;
+}
+.content{
+    width:100%;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    text-align:center;
+    color:white;
+    
+}
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+.content p{
+    margin: 20px auto;
+    font-weight:100;
+    line-height:25px;
+    font-size:30px;
+    width:85%;
+    height:100%;
+}
+
+.profile{
+    max-width: 100%;
+    max-height: 100%;
+}
+.music{
+    height:auto;
+    width:100%;
+    background-color: black;
+    display: flex;
+    align-items:center;
+    position:relative;
+}
+.music-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 20px;
+    position: relative;
+}
+.music img {
+    max-width: 100%;
+    height: auto;
+}
+.music h2{
+    color:white;
+    font-size:50px;
+    text-align: right;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.music ul{
+    color:white;
+    font-size:20px;
+    text-align: left;
+    position: relative;
+}
+.sports{
+    height:auto;
+    width:100%;
+    background-color: gray;
+    display: flex;
+    align-items:center;
+    position:relative;
+}
+.sports-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 1200px; /* Adjust this value as needed */
+    margin: 0 auto; /* Center content horizontally */
+    padding: 20px;
+    position: relative;
+}
+.sports img {
+    max-width: 40%;
+    height: auto;
+}
+.sports h2{
+    color:white;
+    font-size:50px;
+    text-align: right;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.sports ul{
+    color:white;
+    font-size:20px;
+    text-align: left;
+    position: relative;
+}
+.offline{
+    height:auto;
+    width:100%;
+    background-color: black;
+    display: flex;
+    align-items:center;
+    position:relative;
+}
+.offline-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 1000px; /* Adjust this value as needed */
+    margin: 0 auto; /* Center content horizontally */
+    padding: 20px;
+    position: relative;
+}
+.offline img {
+    max-width: 30%;
+    height: auto;
+}
+.offline h2{
+    color:white;
+    font-size:45px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.offline ul{
+    color:white;
+    font-size:20px;
+    position: relative;
+}
+.entertainment{
+    height:auto;
+    width:100%;
+    background-color: gray;
+    display: flex;
+    align-items:center;
+    position:relative;
+}
+.entertainment-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 1200px; /* Adjust this value as needed */
+    margin: 0 auto; /* Center content horizontally */
+    padding: 20px;
+    position: relative;
+}
+.entertainment img {
+    max-width: 30%;
+    height: auto;
+}
+.entertainment h2{
+    color:white;
+    font-size:50px;
+    text-align: right;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.entertainment ul{
+    color:white;
+    font-size:20px;
+    text-align: left;
+    position: relative;
+}
+.footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer h3{
+    color:white;
+    margin-right:50px;
+}
+.insta{
+    width:50px;
+    height:auto;
+    margin-right:50px;
+}
+.phone{
+    width:50px;  
+    height:auto;
+    margin-right:50px;
+}
+.contact{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+
+}
